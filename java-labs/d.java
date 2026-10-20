@@ -82,5 +82,8 @@ class d{
         else if(obje.b%2==0){
             System.out.println("b is a even number");
         }
+        else{
+            System.out.println("two numbers are not a even number");
+        }
     }
 }
