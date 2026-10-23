@@ -16,11 +16,13 @@ class B extends A{
 class inher{
     public static void main(String[] args) {
         B ob = new B();
-        int h,j;
+        int h,j,k;
         h=ob.add(10,12);
         j=ob.mul(1111, 9999);
         System.out.println("sum "+h);
         System.out.println("multiplication "+j);
+        k=ob.mul(100,12);
+        System.out.println("multiplication "+k);
 
     }
 }
