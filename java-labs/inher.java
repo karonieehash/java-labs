@@ -10,11 +10,8 @@
 //INHERITENCE IN JAVA
 //INHERITENCE IN JAVA
 //INHERITENCE IN JAVA
-
-import java.util.Scanner;
 class A{
     int add(int x,int y){
-        Scanner tv=new Scanner(System.in);
         int d=x+y;
         return d;
     }
